@@ -24,7 +24,7 @@ public class User {
     private String name;
     @Email(message = "Email is mandatory")
     private String email;
-    @Size(message = "Number phone must be a number and not longer than 9 numbers", max = 9)
+    @Size(message = "Number phone must be a number and not longer than 9 numbers", max = 10)
     private String mobile;
     @Size(min = 6,message = "Password must have at least 6 characters ")
     private String password;
